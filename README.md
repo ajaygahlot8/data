@@ -1,6 +1,15 @@
-# Change java version
-install brew :
+#install brew
 https://brew.sh/
+------
+
+
+#install git
+brew install git
+
+
+------
+
+#install java
 
 brew install openjdk@8
 brew install openjdk@11
@@ -20,5 +29,9 @@ jenv add /Library/Java/JavaVirtualMachines/openjdk-8.jdk/Contents/Home
 jenv add /Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home
 jenv add /Library/Java/JavaVirtualMachines/openjdk-17.jdk/Contents/Home
 
+jenv global 11.0.16.1
+
 java -version
+
+-----
 
